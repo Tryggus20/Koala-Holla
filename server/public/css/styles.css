@@ -2,15 +2,7 @@ body {
     background-color: rgb(8, 170, 190);
 }
 
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-h3 {
+h1, h2, h3 {
     text-align: center;
 }
 
@@ -30,10 +22,14 @@ h3 {
 .image {
     display: flex;
     align-items: center;
-    padding: 50px;
-}
+    padding: 5px;
 
+}
+.icon {
+    transform: scale(0.5);
+
+}
 img.sadKoala {
     margin: 0 auto;
-    width: 35%;
+    width: 30%;
 }
